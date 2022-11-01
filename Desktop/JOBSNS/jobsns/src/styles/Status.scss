@@ -29,11 +29,11 @@ body {
       border-left: 2px solid $border-color-grey;
       grid-template-columns: 1fr;
       left: 0;
+      display: flex;
       width: 100%;
       align-items: center;
 
       .container_chart {
-        // flex-direction: column;
         padding: 20% 0 0 3.7%;
         margin: 0;
         .first_chart {
