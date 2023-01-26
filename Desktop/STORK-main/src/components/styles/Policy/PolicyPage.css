@@ -1,0 +1,252 @@
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  letter-spacing: -0.23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.map-icon,
+.policy-title-div {
+  position: absolute;
+  top: 155px;
+  left: 555px;
+  width: 820px;
+  height: 108px;
+}
+.map-icon {
+  top: 295px;
+  left: 378px;
+  width: 1175px;
+  height: 1526px;
+  object-fit: cover;
+}
+.choice-div {
+  position: absolute;
+  top: 1854px;
+  left: 450px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-gray-200);
+  width: 1019px;
+  height: 504px;
+}
+.b,
+.choice1-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.choice1-div1 {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--color-pink-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 5px solid var(--color-black);
+  box-sizing: border-box;
+}
+.b {
+  font-size: var(--font-size-lg);
+  letter-spacing: -0.23px;
+  display: flex;
+  font-family: var(--font-nanumgothiccoding);
+  color: var(--color-white);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 620px;
+  height: 123px;
+}
+.mdi-lightchevron-double-right-icon {
+  position: absolute;
+  top: 11px;
+  left: 520px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.choice1-div,
+.choice2-div {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 2446px;
+  left: 650px;
+  width: 620px;
+  height: 123px;
+}
+.choice1-div:active,
+.choice2-div:active,
+.chungnam-div:active,
+.junbuk-div:active,
+.kyungki-div:active,
+.seoul-div:active {
+  animation: 1s ease 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.choice2-div {
+  top: 2657px;
+}
+.div1,
+.kyungki-div,
+.seoul-div {
+  position: absolute;
+  width: 200px;
+  height: 90px;
+}
+.div1 {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-lg);
+  letter-spacing: -0.23px;
+  font-family: var(--font-poor-story);
+  color: var(--color-black);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kyungki-div,
+.seoul-div {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 558px;
+  left: 669px;
+}
+.seoul-div {
+  top: 674px;
+}
+.chungnam-div-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 5px solid var(--color-pink-100);
+  box-sizing: border-box;
+}
+.chungnam-div {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 841px;
+  left: 624px;
+  width: 200px;
+  height: 90px;
+}
+.junbuk-div {
+  top: 1097px;
+  left: 697px;
+}
+.chungbuk-div,
+.jeju-div,
+.junbuk-div,
+.junnam-div,
+.kangwon-div,
+.kyungbuk-div,
+.kyungnam-div {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  width: 200px;
+  height: 90px;
+}
+.junnam-div {
+  top: 1353px;
+  left: 624px;
+  opacity: 1;
+}
+.junnam-div.animate {
+  animation: 1s ease 0s 1 normal forwards pulsate;
+}
+.chungbuk-div,
+.jeju-div,
+.kangwon-div,
+.kyungbuk-div,
+.kyungnam-div {
+  top: 1676px;
+  left: 619px;
+}
+.chungbuk-div:active,
+.jeju-div:active,
+.kangwon-div:active,
+.kyungbuk-div:active,
+.kyungnam-div:active {
+  animation: 1s ease 0s infinite normal none pulsate;
+  opacity: 1;
+}
+.chungbuk-div,
+.kangwon-div,
+.kyungbuk-div,
+.kyungnam-div {
+  top: 1224px;
+  left: 1013px;
+}
+.chungbuk-div,
+.kangwon-div,
+.kyungbuk-div {
+  top: 916px;
+  left: 1089px;
+}
+.chungbuk-div,
+.kangwon-div {
+  top: 805px;
+  left: 889px;
+}
+.kangwon-div {
+  top: 504px;
+  left: 969px;
+}
+.policy-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 2865px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-gowun-dodum);
+}

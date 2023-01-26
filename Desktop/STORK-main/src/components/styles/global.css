@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=PoetsenOne:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poor+Story:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+HK:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=NanumGothicCoding:wght@700&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-poetsenone: PoetsenOne;
+  --font-noto-serif-hk: "Noto Serif HK";
+  --font-gowun-dodum: "Gowun Dodum";
+  --font-poor-story: "Poor Story";
+  --font-nanumgothiccoding: NanumGothicCoding;
+
+  /* font sizes */
+  --font-size-xs: 9px;
+  --font-size-sm: 27px;
+  --font-size-base: 30px;
+  --font-size-lg: 40px;
+  --font-size-xl: 45px;
+  --font-size-2xl: 50px;
+  --font-size-3xl: 60px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-pink-100: #f2b0b0;
+  --color-pink-200: #eda1a1;
+  --color-gray-100: #bfe0ff;
+  --color-gray-200: #d9d9d9;
+  --color-black: #000;
+  --color-tan: #f6e9a2;
+  --color-brown-100: #ea7171;
+  --color-brown-200: #d66464;
+  --color-brown-300: #ee4949;
+  --color-teal: #227fb2;
+
+  /* border radiuses */
+  --br-xs: 5px;
+  --br-sm: 10px;
+  --br-md: 20px;
+  --br-lg: 30px;
+}
